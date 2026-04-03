@@ -25,7 +25,7 @@ app.get('/something', (req, res) => {
     console.log("hello")
 })
 
-app/get('yoo', (req, res) => {
+app.get('yoo', (req, res) => {
     console.log("yoo")
 })
 
