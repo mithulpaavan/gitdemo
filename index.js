@@ -16,6 +16,11 @@ app.get('/saved', (req, res)=>{
     console.log("saved data")
 });
 
+app.post('/login', (req, res)=>{
+    res.send("login happened");
+    console.log("login happened")
+})
+
 app.listen(5000, ()=>{
     console.log("hello hii...");
 })
