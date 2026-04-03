@@ -25,6 +25,10 @@ app.get('/something', (req, res) => {
     console.log("hello")
 })
 
+app/get('yoo', (req, res) => {
+    console.log("yoo")
+})
+
 app.listen(5000, ()=>{
     console.log("hello hii...");
 })
