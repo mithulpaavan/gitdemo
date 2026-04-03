@@ -31,6 +31,9 @@ app.get('yoo', (req, res) => {
 app.get('/home', (req, res)=>{
     res.send("home page");
     console.log("home page");
+
+
+    //hello
 })
 
 //added
