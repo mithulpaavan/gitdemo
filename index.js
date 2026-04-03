@@ -32,6 +32,10 @@ app.get('yoo', (req, res) => {
 
 //commit - 2
 
+app.get('/yoo',  (req, res)=> {
+    console.log("hello")
+})
+
 app.get('/home', (req, res)=>{
     res.send("home page");
     console.log("home page");
