@@ -21,6 +21,10 @@ app.post('/login', (req, res)=>{
     console.log("login happened")
 })
 
+app.get('/something', (req, res) => {
+    console.log("hello")
+})
+
 app.listen(5000, ()=>{
     console.log("hello hii...");
 })
